@@ -4,7 +4,8 @@
   "description": "ブロックテーマ勉強用のお遊びテーマ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "wp-env start --xdebug && open http://localhost:10500/",
+    "stop": "wp-env stop"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yosiakatsuki/oasobi/issues"
   },
-  "homepage": "https://github.com/yosiakatsuki/oasobi#readme"
+  "homepage": "https://github.com/yosiakatsuki/oasobi#readme",
+  "devDependencies": {
+    "@wordpress/env": "^4.7.0"
+  }
 }
