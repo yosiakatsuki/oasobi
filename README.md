@@ -4,6 +4,15 @@
 
 ## 勉強記録
 
+### 2022/05/30
+- `parts`フォルダ内にheader.html,footer.html追加
+- テンプレート・パーツ関連のドキュメント
+  - https://developer.wordpress.org/themes/block-themes/templates-and-template-parts/
+- header.htmlに直接HTMLを記述してみた
+  - サイトエディター側でブロックのエラーになった。
+  - ブロックとして認識される方法で書いてあげる必要がある
+- theme.jsonにtemplatePartsを追加し、作成したパーツの名前が表示されるようにした
+
 ### 2022/05/27
 - テーマとして認識される最低限度のファイルを追加した
   - style.css
