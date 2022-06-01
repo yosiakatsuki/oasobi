@@ -13,6 +13,10 @@
   - ルートレベルのグループブロックではalign指定ができなかった
   - ルートのグループで「デフォルトレイアウトの継承」をON
   - その中のグループでalign指定ができるようになる
+- theme.json関連ドキュメント
+  - https://qiita.com/TetsuakiHamano/items/1cff973739039e5efc18
+  - https://developer.wordpress.org/block-editor/reference-guides/theme-json-reference/theme-json-living/
+  - https://developer.wordpress.org/themes/advanced-topics/theme-json/
 
 ### 2022/05/30
 - `parts`フォルダ内にheader.html,footer.html追加
