@@ -6,6 +6,83 @@
     "layout": {
       "contentSize": "840px",
       "wideSize": "1100px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "oasobi-red",
+          "color": "#BF2011",
+          "name": "赤色"
+        },
+        {
+          "slug": "oasobi-pink",
+          "color": "#F2D8D5",
+          "name": "ピンク"
+        },
+        {
+          "slug": "oasobi-brown",
+          "color": "#400A0A",
+          "name": "茶色"
+        },
+        {
+          "slug": "oasobi-azuki",
+          "color": "#8C241B",
+          "name": "あずき色"
+        },
+        {
+          "slug": "oasobi-pale-red",
+          "color": "#D9765F",
+          "name": "薄い赤色"
+        },
+        {
+          "slug": "oasobi-black",
+          "color": "#120303",
+          "name": "黒"
+        },
+        {
+          "slug": "oasobi-white",
+          "color": "#fefbfb",
+          "name": "白"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "name": "1rem",
+          "slug": "oasobi-1rem",
+          "size": "1rem"
+        },
+        {
+          "name": "vw",
+          "slug": "oasobi-vw",
+          "size": "1.45vw"
+        },
+        {
+          "name": "clamp",
+          "slug": "oasobi-clamp",
+          "size": "clamp(1rem, 0.773rem + 0.97vw, 1.5rem)"
+        }
+      ]
+    },
+    "custom": {
+      "color": {
+        "site": {
+          "text": "#120303",
+          "background": "transparent"
+        }
+      },
+      "typography": {
+        "font-size": {
+          "base": "16px"
+        }
+      }
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--custom--color--site--text)",
+      "background": "var(--wp--custom--color--site--background)"
     }
   },
   "templateParts": [
